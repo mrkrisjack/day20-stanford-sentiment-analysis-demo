@@ -26,7 +26,7 @@ $ rhc env set TWITTER_OAUTH_CONSUMER_SECRET=<please enter value> -a sentimentsap
 $ rhc env set JAVA_HOME=/etc/alternatives/java_sdk_1.7.0 -a sentimentsapp
 ```
 
-The restart for the new values to be taken into account
+Then restart for the new values to be taken into account
 
 ```
 $ rhc restart-app --app sentimentsapp
