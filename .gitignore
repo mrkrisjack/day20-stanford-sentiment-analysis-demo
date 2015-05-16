@@ -4,3 +4,4 @@
 target
 bin
 deployments/*
+src/main/resources/com/twitter/Twitter.properties
