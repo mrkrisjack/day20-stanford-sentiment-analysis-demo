@@ -32,7 +32,7 @@ public class SentimentAnalyzer {
 
             }
         }
-        if (mainSentiment == 2 || mainSentiment > 4 || mainSentiment < 0) {
+        if (mainSentiment > 4 || mainSentiment < 0) {
             return null;
         }
         TweetWithSentiment tweetWithSentiment = new TweetWithSentiment(line, toCss(mainSentiment));
